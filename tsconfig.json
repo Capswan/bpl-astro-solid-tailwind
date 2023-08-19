@@ -1,8 +1,5 @@
 {
   "compilerOptions": {
-    "checkJs": false,
-    "paths": {
-      "~/*": [".src/*"]
-    }
+    "checkJs": false
   }
 }
