@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "docs": "jsdoc -t -r ./src/ -d ./docs/jsdoc/"
+    "docs": "jsdoc -r ./src/ -d ./docs/jsdoc/"
   },
   "dependencies": {
     "@astrojs/solid-js": "^2.2.1",

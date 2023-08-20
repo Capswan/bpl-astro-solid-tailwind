@@ -12,4 +12,3 @@ export function Counter(startingIndex) {
   onCleanup(() => clearInterval(interval));
   return <div>Count value is {count()}</div>;
 }
-
