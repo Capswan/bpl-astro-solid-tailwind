@@ -1,4 +1,4 @@
-# Astro, Solid, Tailwind Boilerplate
+# Astro, Solid, Tailwind - Template
 
 ## 📚 Stack
 
@@ -7,7 +7,7 @@
 | [Astro](https://astro.build/) | SSR framework that allows you to work with components from React, Solid, Vue, etc. | 
 | [Solid](https://www.solidjs.com/) | Very performant, JSX-based UI framework |
 | [Tailwind](https://tailwindui.com/) | CSS framework |
-| [Flowbite](https://flowbite.com/) | Component library with support for SolidJS, React, etc. | 
+| [Flowbite](https://flowbite.com/) | Component library with support for SolidJS, React, etc. Optional & easily removed | 
 | Vanilla JS | Pure JS |
 
 ## 🚀 Project Structure
@@ -85,3 +85,7 @@ All commands are run from the root of the project, from a terminal:
 
 ### Other
 - [NextJS vs Astro Performance Comparison](https://www.youtube.com/watch?v=wzRSYQ3b-Mk)
+
+## 🧶 Roadmap
+- Add [JSDoc](https://jsdoc.app)
+    - Add `better-docs` after [this PR](https://github.com/SoftwareBrothers/better-docs/pull/247)
