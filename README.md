@@ -1,14 +1,14 @@
-# Astro Starter Kit: Minimal
+# Astro, Solid, Tailwind Boilerplate
 
-```
-npm create astro@latest -- --template minimal
-```
+## 📚 Stack
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+| Name | Description | 
+|:-----|:------------|
+| [Astro](https://astro.build/) | SSR framework that allows you to work with components from React, Solid, Vue, etc. | 
+| [Solid](https://www.solidjs.com/) | Very performant, JSX-based UI framework |
+| [Tailwind](https://tailwindui.com/) | CSS framework |
+| [Flowbite](https://flowbite.com/) | Component library with support for SolidJS, React, etc. | 
+| Vanilla JS | Pure JS |
 
 ## 🚀 Project Structure
 
@@ -18,16 +18,43 @@ Inside of your Astro project, you'll see the following folders and files:
 /
 ├── public/
 ├── src/
+│   └── components/
+│       └── Clicker.jsx
+│       └── Counter.jsx
+│       └── Flowbitten.jsx
+│   └── layouts/
+│       └── Layouts.astro 
 │   └── pages/
 │       └── index.astro
-└── package.json
+├── .gitignore
+├── astro.config.json
+├── package-lock.json
+├── package.json
+├── tailwind.config.json
+└── tsconfig.js
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### File Descriptions
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Any static assets, like images, can be placed in the `public/` directory.
+| Path | Description | 
+|:-----|:------------|
+| `./src/components/Clicker.jsx` | SolidJS button example | 
+| `./src/components/Counter.jsx` | SolidJS interval-based counter example | 
+| `./src/components/Flowbitten.jsx` | SolidJS app example. Combined Flowbite and Tailwind along with our Clicker & Counter examples | 
+| `./src/layouts/Layouts.astro` | Astro layout wrapper; includes [astro-seo](https://github.com/jonasmerlin/astro-seo) | 
+| `./src/pages/index.astro` | App entry point | 
+| `./astro.config.json` | Astro config; includes Tailwind & SolidJS plugins | 
+| `./tailwind.config.json` | Tailwind config; includes Flowbite plugin | 
+| `./tsconfig.js` | Manage invasive type checker | 
+
+
+- Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+- There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+- Any static assets, like images, can be placed in the `public/` directory.
+
 
 ## 🧞 Commands
 
@@ -42,6 +69,14 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 👀 Resources
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Docs
+- [Astro Docs](https://docs.astro.build)
+- [SolidJS Docs](https://www.solidjs.com/docs/latest)
+
+### Tutorials
+- [Solid Overview (~2 min)](https://www.youtube.com/watch?v=hw3Bx5vxKl0)
+- [Astro Overview (~3 min)](https://www.youtube.com/watch?v=gxBkghlglTg)
+- [Tailwind Overview (~2 min)](https://www.youtube.com/watch?v=mr15Xzb1Ook)
+- [Flowbite Crash Course (~20 min)](https://youtu.be/KaLxCiilHns?t=616)
