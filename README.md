@@ -72,11 +72,16 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Resources
 
 ### Docs
-- [Astro Docs](https://docs.astro.build)
-- [SolidJS Docs](https://www.solidjs.com/docs/latest)
+- [Astro](https://docs.astro.build)
+- [SolidJS](https://www.solidjs.com/docs/latest)
+- [Tailwind](https://tailwindcss.com/docs)
+- [Flowbite](https://flowbite.com/blocks/)
 
 ### Tutorials
 - [Solid Overview (~2 min)](https://www.youtube.com/watch?v=hw3Bx5vxKl0)
 - [Astro Overview (~3 min)](https://www.youtube.com/watch?v=gxBkghlglTg)
 - [Tailwind Overview (~2 min)](https://www.youtube.com/watch?v=mr15Xzb1Ook)
 - [Flowbite Crash Course (~20 min)](https://youtu.be/KaLxCiilHns?t=616)
+
+### Other
+- [NextJS vs Astro Performance Comparison](https://www.youtube.com/watch?v=wzRSYQ3b-Mk)
