@@ -2,7 +2,7 @@ import { createSignal } from "solid-js";
 import { Counter } from "./Counter.jsx"
 
 
-export function Clicker(foo, bar) {
+export function Clicker() {
 	const [count, setCount] = createSignal(0);
 	const add = () => setCount(count() + 1);
 	const subtract = () => setCount(count() - 1);
